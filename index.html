@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="nav-container" role="banner">
+        <nav aria-label="Main navigation">
+            <div class="nav-utilities">
+                <button class="menu-icon-container" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links" type="button">
+                    <span class="menu-icon" aria-hidden="true">
+                        <span class="line-1"></span>
+                        <span class="line-2"></span>
+                    </span>
+                </button>
+                <a href="#" class="link-logo"><svg viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M12.0232 9.56293C12.0032 7.28681 13.8502 6.19409 13.9338 6.14081C12.8944 4.59355 11.2768 4.38159 10.6998 4.35665C9.32396 4.21496 8.01387 5.18072 7.31649 5.18072C6.61912 5.18072 5.54075 4.37705 4.39999 4.39972C2.89829 4.42239 1.51579 5.28727 0.742663 6.6543C-0.815851 9.40536 0.344959 13.4827 1.86225 15.7157C2.6053 16.8073 3.48983 18.0372 4.65287 17.9918C5.77357 17.9465 6.1969 17.255 7.54932 17.255C8.90174 17.255 9.28274 17.9918 10.4669 17.9703C11.6712 17.9465 12.4354 16.8549 13.1729 15.7599C14.024 14.4926 14.376 13.2661 14.3961 13.2015C14.3694 13.1902 12.0477 12.2845 12.0232 9.56293Z" fill="white"/>
+<path d="M9.79842 2.87941C10.4156 2.11881 10.8322 1.06122 10.7175 0.00708008C9.82841 0.0433921 8.75233 0.610128 8.11398 1.37072C7.5425 2.04293 7.0412 3.11975 7.17704 4.15243C8.16856 4.23064 9.18116 3.63889 9.79842 2.87941Z" fill="white"/>
+</svg><span class="visually-hidden">Apple</span></a>
+                <a href="#" class="link-search" aria-label="Search apple.com"><svg viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.55102 13.602C10.8929 13.602 13.602 10.8929 13.602 7.55102C13.602 4.20913 10.8929 1.5 7.55102 1.5C4.20913 1.5 1.5 4.20913 1.5 7.55102C1.5 10.8929 4.20913 13.602 7.55102 13.602ZM7.55102 15.102C11.7213 15.102 15.102 11.7213 15.102 7.55102C15.102 3.38071 11.7213 0 7.55102 0C3.38071 0 0 3.38071 0 7.55102C0 11.7213 3.38071 15.102 7.55102 15.102Z" fill="white"/>
+<path d="M12.3081 12.61L13.3234 11.5057L19.1858 16.8958L18.1705 18L12.3081 12.61Z" fill="white"/>
+</svg><span class="visually-hidden">Search apple.com</span></a>
+                <a href="#" class="link-bag"><svg viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M5 4C6.3125 -1.60038e-05 10.6875 -1.99848e-07 12 4" stroke-width="1.5"/>
+<path d="M1.88889 3.875H15.1111C15.7453 3.875 16.25 4.38389 16.25 5V17.1875C16.25 17.8036 15.7453 18.3125 15.1111 18.3125H1.88889C1.25467 18.3125 0.75 17.8036 0.75 17.1875V5C0.75 4.38389 1.25467 3.875 1.88889 3.875Z" stroke-width="1.5"/>
+</svg><span class="visually-hidden">Shopping Bag</span></a>
+            </div>
+
+            <ul class="nav-links" id="nav-links" aria-label="Main navigation">
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-mac"><span>Mac</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-ipad"><span>iPad</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-iphone"><span>iPhone</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-watch"><span>Watch</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-tv"><span>TV</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-music"><span>Music</span></a>
+                </li>
+                <li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false" data-menu="mega-menu-support"><span>Support</span></a>
+                </li>
+            </ul>
+            
+            <!-- Mac Mega Menu -->
+            <div class="mega-menu" id="mega-menu-mac" role="region" aria-label="Mac menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Shop and Learn</h3>
+                        <ul>
+                            <li><a href="#">All Mac</a></li>
+                            <li><a href="#">MacBook Air</a></li>
+                            <li><a href="#">MacBook Pro</a></li>
+                            <li><a href="#">iMac</a></li>
+                            <li><a href="#">Mac mini</a></li>
+                            <li><a href="#">Mac Studio</a></li>
+                            <li><a href="#">Mac Pro</a></li>
+                            <li><a href="#">Compare Mac</a></li>
+                            <li><a href="#">Help Me Choose</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">Studio Display</a></li>
+                            <li><a href="#">Pro Display XDR</a></li>
+                            <li><a href="#">All Mac Accessories</a></li>
+                            <li><a href="#">Cases & Protection</a></li>
+                            <li><a href="#">Displays & Mounts</a></li>
+                            <li><a href="#">Power & Cables</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Applications</h3>
+                        <ul>
+                            <li><a href="#">Apps by Apple</a></li>
+                            <li><a href="#">Final Cut Pro</a></li>
+                            <li><a href="#">Logic Pro</a></li>
+                            <li><a href="#">Safari</a></li>
+                            <li><a href="#">Apple Books</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>More Mac</h3>
+                        <ul>
+                            <li><a href="#">macOS</a></li>
+                            <li><a href="#">Apple Intelligence</a></li>
+                            <li><a href="#">Mac in Business</a></li>
+                            <li><a href="#">Mac in Education</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">AppleCare</a></li>
+                            <li><a href="#">Mac Support</a></li>
+                            <li><a href="#">Manuals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- iPad Mega Menu -->
+            <div class="mega-menu" id="mega-menu-ipad" role="region" aria-label="iPad menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Shop and Learn</h3>
+                        <ul>
+                            <li><a href="#">All iPad</a></li>
+                            <li><a href="#">iPad Pro</a></li>
+                            <li><a href="#">iPad Air</a></li>
+                            <li><a href="#">iPad</a></li>
+                            <li><a href="#">iPad mini</a></li>
+                            <li><a href="#">Compare iPad</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">Apple Pencil</a></li>
+                            <li><a href="#">iPad Keyboards</a></li>
+                            <li><a href="#">All iPad Accessories</a></li>
+                            <li><a href="#">Cases & Protection</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Applications</h3>
+                        <ul>
+                            <li><a href="#">Apps by Apple</a></li>
+                            <li><a href="#">Final Cut Pro for iPad</a></li>
+                            <li><a href="#">Logic Pro for iPad</a></li>
+                            <li><a href="#">Apple Books</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>More iPad</h3>
+                        <ul>
+                            <li><a href="#">iPadOS</a></li>
+                            <li><a href="#">Apple Intelligence</a></li>
+                            <li><a href="#">iPad in Business</a></li>
+                            <li><a href="#">iPad in Education</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">AppleCare</a></li>
+                            <li><a href="#">iPad Support</a></li>
+                            <li><a href="#">Manuals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- iPhone Mega Menu -->
+            <div class="mega-menu" id="mega-menu-iphone" role="region" aria-label="iPhone menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Shop and Learn</h3>
+                        <ul>
+                            <li><a href="#">All iPhone</a></li>
+                            <li><a href="#">iPhone 17 Pro</a></li>
+                            <li><a href="#">iPhone Air</a></li>
+                            <li><a href="#">iPhone 17</a></li>
+                            <li><a href="#">iPhone 16</a></li>
+                            <li><a href="#">Compare iPhone</a></li>
+                            <li><a href="#">Apple Trade In</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">All iPhone Accessories</a></li>
+                            <li><a href="#">Cases & Protection</a></li>
+                            <li><a href="#">MagSafe</a></li>
+                            <li><a href="#">Wireless Chargers</a></li>
+                            <li><a href="#">Power & Cables</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Applications</h3>
+                        <ul>
+                            <li><a href="#">Apps by Apple</a></li>
+                            <li><a href="#">Apple Books</a></li>
+                            <li><a href="#">Maps</a></li>
+                            <li><a href="#">Apple News</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>More iPhone</h3>
+                        <ul>
+                            <li><a href="#">iOS</a></li>
+                            <li><a href="#">Apple Intelligence</a></li>
+                            <li><a href="#">Apple Pay</a></li>
+                            <li><a href="#">Apple Health</a></li>
+                            <li><a href="#">Switch from Android</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">AppleCare</a></li>
+                            <li><a href="#">iPhone Support</a></li>
+                            <li><a href="#">Manuals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Watch Mega Menu -->
+            <div class="mega-menu" id="mega-menu-watch" role="region" aria-label="Watch menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Shop and Learn</h3>
+                        <ul>
+                            <li><a href="#">All Apple Watch</a></li>
+                            <li><a href="#">Apple Watch Series 11</a></li>
+                            <li><a href="#">Apple Watch Ultra 3</a></li>
+                            <li><a href="#">Apple Watch SE</a></li>
+                            <li><a href="#">Compare Apple Watch</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">All Apple Watch Accessories</a></li>
+                            <li><a href="#">Apple Watch Bands</a></li>
+                            <li><a href="#">Cases & Protection</a></li>
+                            <li><a href="#">Charging Essentials</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>More Apple Watch</h3>
+                        <ul>
+                            <li><a href="#">watchOS</a></li>
+                            <li><a href="#">Apple Fitness+</a></li>
+                            <li><a href="#">Apple Health</a></li>
+                            <li><a href="#">Close Your Rings</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">AppleCare</a></li>
+                            <li><a href="#">Apple Watch Support</a></li>
+                            <li><a href="#">Manuals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TV Mega Menu -->
+            <div class="mega-menu" id="mega-menu-tv" role="region" aria-label="TV menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Shop and Learn</h3>
+                        <ul>
+                            <li><a href="#">All TV & Home</a></li>
+                            <li><a href="#">Apple TV 4K</a></li>
+                            <li><a href="#">Apple TV app</a></li>
+                            <li><a href="#">HomePod</a></li>
+                            <li><a href="#">Home app</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Accessories</h3>
+                        <ul>
+                            <li><a href="#">All TV & Home Accessories</a></li>
+                            <li><a href="#">HomeKit</a></li>
+                            <li><a href="#">Gaming</a></li>
+                            <li><a href="#">Headphones & Speakers</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>More TV & Home</h3>
+                        <ul>
+                            <li><a href="#">AirPlay</a></li>
+                            <li><a href="#">Apple Arcade</a></li>
+                            <li><a href="#">tvOS</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">AppleCare for Apple TV</a></li>
+                            <li><a href="#">Apple TV Support</a></li>
+                            <li><a href="#">HomePod Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Music Mega Menu -->
+            <div class="mega-menu" id="mega-menu-music" role="region" aria-label="Music menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Explore</h3>
+                        <ul>
+                            <li><a href="#">Apple One</a></li>
+                            <li><a href="#">Apple Music</a></li>
+                            <li><a href="#">Apple TV+</a></li>
+                            <li><a href="#">Apple Arcade</a></li>
+                            <li><a href="#">Apple Fitness+</a></li>
+                            <li><a href="#">Apple Podcasts</a></li>
+                            <li><a href="#">Apple Books</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Apple Wallet</h3>
+                        <ul>
+                            <li><a href="#">Wallet</a></li>
+                            <li><a href="#">Apple Card</a></li>
+                            <li><a href="#">Apple Pay</a></li>
+                            <li><a href="#">Apple Cash</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">Music Support</a></li>
+                            <li><a href="#">Apple Card Support</a></li>
+                            <li><a href="#">Apple Pay Support</a></li>
+                            <li><a href="#">Billing and Subscriptions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Support Mega Menu -->
+            <div class="mega-menu" id="mega-menu-support" role="region" aria-label="Support menu" aria-hidden="true">
+                <div class="mega-menu-content">
+                    <div class="mega-menu-section">
+                        <h3>Product Support</h3>
+                        <ul>
+                            <li><a href="#">iPhone Support</a></li>
+                            <li><a href="#">Mac Support</a></li>
+                            <li><a href="#">iPad Support</a></li>
+                            <li><a href="#">Watch Support</a></li>
+                            <li><a href="#">AirPods Support</a></li>
+                            <li><a href="#">TV Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Service and Repair</h3>
+                        <ul>
+                            <li><a href="#">Apple Repair Options</a></li>
+                            <li><a href="#">AppleCare Products</a></li>
+                            <li><a href="#">Hardware Warranties</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">My Support</a></li>
+                            <li><a href="#">Product Documentation</a></li>
+                            <li><a href="#">Apple Support Videos</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-section">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support app</a></li>
+                            <li><a href="#">Apple Communities</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide" id="search-overlay" role="dialog" aria-label="Search" aria-hidden="true" aria-modal="true">
+            <div class="link-search"><svg viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.55102 13.602C10.8929 13.602 13.602 10.8929 13.602 7.55102C13.602 4.20913 10.8929 1.5 7.55102 1.5C4.20913 1.5 1.5 4.20913 1.5 7.55102C1.5 10.8929 4.20913 13.602 7.55102 13.602ZM7.55102 15.102C11.7213 15.102 15.102 11.7213 15.102 7.55102C15.102 3.38071 11.7213 0 7.55102 0C3.38071 0 0 3.38071 0 7.55102C0 11.7213 3.38071 15.102 7.55102 15.102Z" fill="white"/>
+<path d="M12.3081 12.61L13.3234 11.5057L19.1858 16.8958L18.1705 18L12.3081 12.61Z" fill="white"/>
+</svg></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Search apple.com" aria-label="Search apple.com" id="desktop-search-input">
+                </form>
+            </div>
+            <button class="link-close" type="button" aria-label="Close search"><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M1.20937 2.01989L2.27003 0.959229L14.9979 13.6872L13.9373 14.7478L1.20937 2.01989Z" fill="white"/>
+<path d="M13.2301 0.959327L14.2908 2.01999L1.56286 14.7479L0.502197 13.6872L13.2301 0.959327Z" fill="white"/>
+</svg><span class="visually-hidden">Close search</span></button>
+
+            <div class="quick-links" aria-label="Quick links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Visiting an Apple Store FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop Apple Store Online</a>
+                    </li>
+                    <li>
+                        <a href="#">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">AirPods</a>
+                    </li>
+                    <li>
+                        <a href="#">AirTag</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container" id="mobile-search-overlay" role="search" aria-label="Mobile search" aria-hidden="true">
+            <div class="link-search"><svg viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.55102 13.602C10.8929 13.602 13.602 10.8929 13.602 7.55102C13.602 4.20913 10.8929 1.5 7.55102 1.5C4.20913 1.5 1.5 4.20913 1.5 7.55102C1.5 10.8929 4.20913 13.602 7.55102 13.602ZM7.55102 15.102C11.7213 15.102 15.102 11.7213 15.102 7.55102C15.102 3.38071 11.7213 0 7.55102 0C3.38071 0 0 3.38071 0 7.55102C0 11.7213 3.38071 15.102 7.55102 15.102Z" fill="white"/>
+<path d="M12.3081 12.61L13.3234 11.5057L19.1858 16.8958L18.1705 18L12.3081 12.61Z" fill="white"/>
+</svg></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Search apple.com" aria-label="Search apple.com" id="mobile-search-input">
+                </form>
+            </div>
+            <button class="cancel-btn" type="button">Cancel</button>
+
+            <div class="quick-links" aria-label="Quick links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Visiting an Apple Store FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop Apple Store Online</a>
+                    </li>
+                    <li>
+                        <a href="#">Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">AirPods</a>
+                    </li>
+                    <li>
+                        <a href="#">AirTag</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </header>
+
+
+    <div class="overlay" aria-hidden="true"></div>
+    <div class="mega-menu-backdrop" aria-hidden="true"></div>
+    
+    <main id="main-content">
+        <!-- Page content would go here -->
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
